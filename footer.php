@@ -2,7 +2,7 @@
 
     <div class="box-container">
 
-        <div class="box">z
+        <div class="box">
             <h3>quick links</h3>
             <a href="home.php">home</a>
             <a href="about.php">about</a>
@@ -12,7 +12,7 @@
 
         <div class="box">
             <h3>extra links</h3>
-            <a href="index.php">login</a>
+            <a href="login.php">login</a>
             <a href="register.php">register</a>
             <a href="orders.php">my orders</a>
             <a href="cart.php">my cart</a>
