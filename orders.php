@@ -7,7 +7,7 @@ session_start();
 $user_id = $_SESSION['user_id'];
 
 if(!isset($user_id)){
-   header('location:login.php');
+   header('location:index.php');
 }
 
 ?>
@@ -33,7 +33,7 @@ if(!isset($user_id)){
 
 <section class="heading">
     <h3>your orders</h3>
-    <p> <a href="index.php">home</a> / order </p>
+    <p> <a href="home.php">home</a> / order </p>
 </section>
 
 <section class="placed-orders">

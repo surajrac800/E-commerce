@@ -7,7 +7,7 @@ session_start();
 $user_id = $_SESSION['user_id'];
 
 if(!isset($user_id)){
-   header('location:login.php');
+   header('location:index.php');
 };
 
 if(isset($_POST['add_to_wishlist'])){
@@ -112,7 +112,7 @@ if(isset($_POST['add_to_cart'])){
     ?>
 
     <div class="more-btn">
-        <a href="index.php" class="option-btn">go to home page</a>
+        <a href="home.php" class="option-btn">go to home page</a>
     </div>
 
 </section>

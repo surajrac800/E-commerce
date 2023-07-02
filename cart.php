@@ -7,7 +7,7 @@ session_start();
 $user_id = $_SESSION['user_id'];
 
 if(!isset($user_id)){
-   header('location:login.php');
+   header('location:index.php');
 };
 
 if(isset($_GET['delete'])){
@@ -51,7 +51,7 @@ if(isset($_POST['update_quantity'])){
 
 <section class="heading">
     <h3>shopping cart</h3>
-    <p> <a href="index.php">home</a> / cart </p>
+    <p> <a href="home.php">home</a> / cart </p>
 </section>
 
 <section class="shopping-cart">

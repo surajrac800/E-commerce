@@ -7,7 +7,7 @@ session_start();
 $user_id = $_SESSION['user_id'];
 
 if(!isset($user_id)){
-   header('location:login.php');
+   header('location:index.php');
 }
 
 if(isset($_POST['add_to_wishlist'])){
@@ -81,7 +81,7 @@ if(isset($_POST['add_to_cart'])){
 
 <section class="heading">
     <h3>search page</h3>
-    <p> <a href="index.php">home</a> / search </p>
+    <p> <a href="home.php">home</a> / search </p>
 </section>
 
 <section class="search-form">

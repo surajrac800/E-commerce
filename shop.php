@@ -7,7 +7,7 @@ session_start();
 $user_id = $_SESSION['user_id'];
 
 if(!isset($user_id)){
-   header('location:login.php');
+   header('location:index.php');
 };
 
 if(isset($_POST['add_to_wishlist'])){
@@ -81,7 +81,7 @@ if(isset($_POST['add_to_cart'])){
 
 <section class="heading">
     <h3>our shop</h3>
-    <p> <a href="index.php">home</a> / shop </p>
+    <p> <a href="home.php">home</a> / shop </p>
 </section>
 
 <section class="products">
