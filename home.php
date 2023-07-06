@@ -67,11 +67,7 @@ if(isset($_POST['add_to_cart'])){
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>home</title>
-
-   <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
-   <!-- custom admin css file link  -->
    <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -84,7 +80,6 @@ if(isset($_POST['add_to_cart'])){
    <div class="content">
       <h3>new collections</h3>
       <img src="images/home-shoes-2.png" alt="" height="100%">
-      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime reiciendis, modi placeat sit cumque molestiae.</p> -->
       <a href="about.php" class="btn">discover more</a>
    </div>
 
@@ -133,15 +128,10 @@ if(isset($_POST['add_to_cart'])){
 
    <div class="content">
       <h3>have any questions?</h3>
-      <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio officia aliquam quis saepe? Quia, libero.</p> -->
       <a href="contact.php" class="btn">contact us</a>
    </div>
 
 </section>
-
-
-
-
 <?php @include 'footer.php'; ?>
 
 <script src="js/script.js"></script>
